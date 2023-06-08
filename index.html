@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="/img/revlog.png" type="image/x-icon">
+    <title>Company Profile</title>
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/revlog.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+              </a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html">Our Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Message Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <h4>Hi Tasya, Wellcome To Website</h4>
+        <H6>Web company profile</H6>
+      </header>
+      <sectionFac style="background-image: linear-gradient(to right, #ffc82b, #ffde80);">
+        <h4>Our Headquarter</h4>
+        <div class="row kot">
+            <div class="col-3 offset-1">
+                  <img src="img/jakarta.png" class="img-fluid" style="width: 180px;">
+                  <p class="p-fluid" style="font-family: 'Nunito'; padding-top: 12px; font-size: 21px;">Jakarta</p>
+            </div>
+            <div class="col-3 offset-1">
+               <img src="img/bandung.png" class="img-fluid" style="width: 180px;">
+               <p class="p-fluid" style="font-family: 'Nunito'; padding-top: 12px; font-size: 21px;">Bandung</p>
+         </div>
+         <div class="col-3 offset-1">
+               <img src="img/surabaya.png" class="img-fluid" style="width: 180px;">
+               <p class="p-fluid" style="font-family: 'Nunito'; padding-top: 12px; font-size: 21px;">Surabaya</p>
+         </div>
+      </div>
+      </sectionFac>
+      <sectionMes >
+        <h4>Message Us</h4>
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama"><br><br>
+        
+          <label for="tanggal-lahir">Tanggal Lahir:</label>
+          <input type="date" id="tanggal-lahir" name="tanggal-lahir"><br><br>
+        
+          <label for="jenis-kelamin">Jenis Kelamin:</label>
+          <input type="radio" id="pria" name="jenis-kelamin" value="pria">
+          <label for="pria">Pria</label>
+          <input type="radio" id="wanita" name="jenis-kelamin" value="wanita">
+          <label for="wanita">Wanita</label><br><br>
+        
+          <label for="pesan">Pesan:</label><br>
+          <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+        
+          <input type="submit" value="Submit" style="width: 390px;">
+        </form>        
+      </sectionMes>
+      <footer>
+        <h6>Created by Tasya</h6>
+      </footer>
+</body>
+</html>

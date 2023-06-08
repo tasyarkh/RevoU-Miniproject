@@ -1,0 +1,40 @@
+/* li{
+
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+ul{
+    border-radius: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+} */
+
+header{
+    background-image: linear-gradient(to right, #ffc82b, #ffde80);
+    height: 550px;
+}
+h4{
+    padding-top: 100px;
+    padding-left: 95px;
+}
+h6{
+    padding-left: 95px;  
+}
+.kot{
+    padding-top: 50px;
+    text-align: center;
+}
+sectionFac{
+    height: 500px;
+    background-image: linear-gradient(to right, #ffc82b, #ffde80);
+}
+form{
+    padding-left: 95px;
+    padding-top: 40px;  
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
